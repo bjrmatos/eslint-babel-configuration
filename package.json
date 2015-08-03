@@ -1,0 +1,11 @@
+{
+  "name": "eslint-configuration",
+  "version": "1.0.0",
+  "description": "An eslint/babel configuration that matches my code style",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BJR Matos <bjrmatos@gmail.com>",
+  "license": "MIT",
+}
