@@ -1,0 +1,57 @@
+{
+  "extends": "eslint-config-airbnb", // https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/.eslintrc
+
+  // Allow the following global variables
+  "env": {
+    "browser": true, // browser global variables
+    "node": true, // Node.js global variables and Node.js scoping.
+    "mocha": true // adds all of the Mocha testing global variables.
+  },
+
+  "ecmaFeatures": {
+    "arrowFunctions": false,
+    "blockBindings": false,
+    "classes": false,
+    "defaultParams": false,
+    "destructuring": false,
+    "forOf": false,
+    "generators": false,
+    "modules": false,
+    "objectLiteralComputedProperties": false,
+    "objectLiteralDuplicateProperties": false,
+    "objectLiteralShorthandMethods": false,
+    "objectLiteralShorthandProperties": false,
+    "restParams": false,
+    "spread": false,
+    "superInFunctions": false,
+    "templateStrings": false,
+    "jsx": true,
+    "experimentalObjectRestSpread": true
+  },
+
+  "rules": {
+    "strict": [2, "global"],
+
+    "no-var": 0,
+    "prefer-const": 0,
+
+    "no-shadow": [2, {
+      "builtinGlobals": true
+    }],
+    "no-unused-vars": [2, {
+      "vars": "all",
+      "args": "after-used"
+    }],
+    "no-use-before-define": [2, "nofunc"],
+
+    "comma-dangle": [2, "never"],
+
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 2,
+    "react/react-in-jsx-scope": 2
+  },
+
+  "plugins": [
+    "react"
+  ]
+}

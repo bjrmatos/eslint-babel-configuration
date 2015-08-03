@@ -4,8 +4,17 @@
   "description": "An eslint/babel configuration that matches my code style",
   "main": "src/index.js",
   "scripts": {
+    "start": "babel-node src/index",
+    "lint": "eslint src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "BJR Matos <bjrmatos@gmail.com>",
   "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.20",
+    "babel-eslint": "^4.0.5",
+    "eslint": "^0.23.x",
+    "eslint-config-airbnb": "0.0.7",
+    "eslint-plugin-react": "^3.1.0"
+  }
 }
