@@ -1,4 +1,5 @@
 {
+  // change to eslint-config-airbnb/base for a config without react rules
   "extends": "eslint-config-airbnb", // https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/.eslintrc
 
   // Allow the following global variables
