@@ -92,6 +92,7 @@
     }],
     "no-extra-parens": [2, "functions"],
     "one-var": 0,
+    "space-before-function-paren": [2, "never"],
 
     /**
      * JSX style
