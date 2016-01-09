@@ -41,7 +41,6 @@
     /**
      * Best practices
      */
-    "strict": [2, "never"],
     "consistent-return": 0,
     "curly": 2,
     "dot-notation": [2, {
