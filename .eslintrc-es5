@@ -93,6 +93,7 @@
     "no-extra-parens": [2, "functions"],
     "one-var": 0,
     "space-before-function-paren": [2, "never"],
+    "object-shorthand": 0,
 
     /**
      * JSX style
