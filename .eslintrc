@@ -13,7 +13,7 @@
     "restParams": true,
     "experimentalObjectRestSpread": true
   },
-
+i
   "rules": {
     /**
      * ES6
@@ -62,7 +62,8 @@
         "var": 2,
         "let": 2,
         "const": 3
-      }
+      },
+      "SwitchCase": 1
     }],
     "func-names": 0,
     "no-multiple-empty-lines": [2, {
