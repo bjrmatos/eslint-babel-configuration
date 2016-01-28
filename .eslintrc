@@ -13,7 +13,7 @@
     "restParams": true,
     "experimentalObjectRestSpread": true
   },
-i
+  
   "rules": {
     /**
      * ES6
