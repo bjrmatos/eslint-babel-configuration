@@ -76,6 +76,7 @@
       "builtinGlobals": true
     }],
     "wrap-iife": [2, "inside"],
+    "prefer-arrow-callback": 0,
 
     /**
      * Style
