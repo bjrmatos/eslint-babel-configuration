@@ -78,6 +78,7 @@
       "builtinGlobals": true
     }],
     "wrap-iife": [2, "inside"],
+    "max-len": [2, 130, 2, {"ignoreUrls": true}],
 
     /**
      * Style
