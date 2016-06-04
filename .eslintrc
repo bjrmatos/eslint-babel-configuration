@@ -8,11 +8,15 @@
     "node": true, // Node.js global variables and Node.js scoping.
     "mocha": true // adds all of the Mocha testing global variables.
   },
-
-  "ecmaFeatures": {
-    "restParams": true,
-    "experimentalObjectRestSpread": true
+  
+  // enable this config for only ES6 apps
+  /*
+  "parserOptions": {
+    "ecmaFeatures": {
+      experimentalObjectRestSpread: true
+    }
   },
+  */
   
   "rules": {
     /**
