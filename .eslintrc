@@ -77,7 +77,7 @@
     "no-extra-parens": [2, "functions"],
     "one-var": 0,
     "space-before-function-paren": [2, "never"],
-    "no-underscore-dangle": ["error", { "allowAfterThis": true }],
+    "no-underscore-dangle": 0
 
     /**
      * JSX style
