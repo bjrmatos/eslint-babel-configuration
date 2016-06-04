@@ -8,27 +8,6 @@
     "mocha": true // adds all of the Mocha testing global variables.
   },
 
-  "ecmaFeatures": {
-    "arrowFunctions": false,
-    "blockBindings": false,
-    "classes": false,
-    "defaultParams": false,
-    "destructuring": false,
-    "forOf": false,
-    "generators": false,
-    "modules": false,
-    "objectLiteralComputedProperties": false,
-    "objectLiteralDuplicateProperties": false,
-    "objectLiteralShorthandMethods": false,
-    "objectLiteralShorthandProperties": false,
-    "restParams": false,
-    "spread": false,
-    "superInFunctions": false,
-    "templateStrings": false,
-    "jsx": true,
-    "experimentalObjectRestSpread": true
-  },
-
   "rules": {
     /**
      * Strict mode
