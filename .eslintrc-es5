@@ -3,6 +3,7 @@
 
   // Allow the following global variables
   "env": {
+    /* ONLY ACTIVATE THE FOLLOWING FLAGS ACORDING TO USE */
     "browser": true, // browser global variables
     "node": true, // Node.js global variables and Node.js scoping.
     "mocha": true // adds all of the Mocha testing global variables.
@@ -12,8 +13,7 @@
     /**
      * Strict mode
      */
-    // always 'use strict'
-    "strict": [2, "global"],
+    "strict": [2, "safe"],
 
     /**
      * ES6 (Disable ES6 features)
