@@ -11,10 +11,10 @@
   "author": "BJR Matos <bjrmatos@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "babel": "5.8.29",
-    "eslint": "2.x.x",
-    "eslint-config-airbnb": "9.x.x",
-    "eslint-plugin-react": "5.x.x",
-    "eslint-plugin-import": "1.x.x"
+    "babel": "6.5.2",
+    "eslint": "^3.12.0",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-react": "^6.8.0",
+    "eslint-plugin-import": "^2.2.0"
   }
 }
